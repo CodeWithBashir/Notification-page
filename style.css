@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 75rem;
+  margin: 100px auto;
+
+  box-shadow: 0 0 60px rgba(94, 103, 120, 0.1);
+  border-radius: 1rem;
+  padding: 4rem 3.5rem 3.5rem 3.5rem;
+}
+
+/* Notification Header */
+.notification-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.notification-title {
+  font-size: 2.2rem;
+}
+
+.notice-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: hsl(219, 85%, 26%);
+  padding: 0.3rem 1.3rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.read {
+  font-size: 1.7rem;
+  color: hsl(219, 12%, 42%);
+}
+
+/* Notifications */
+
+.notification {
+  background-color: hsl(210, 60%, 98%);
+  padding: 2.3rem 2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  font-size: 1.6rem;
+  color: hsl(219, 12%, 42%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: hsl(224, 21%, 14%);
+  margin-right: 0.5rem;
+}
+
+.message-from {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.first-tournament {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.profile-photo {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+  border: 0.5px solid hsl(219, 12%, 42%);
+}
+.dots {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50px;
+  margin-left: 0.8rem;
+}
+
+.chess {
+  color: hsl(219, 85%, 26%);
+}
+
+/* Rizky */
+
+.rizky {
+  margin-bottom: 1rem;
+}
+
+.rizky .notification {
+  background-color: #fff;
+}
+
+.rizky-message {
+  margin-top: -2rem;
+  font-size: 1.6rem;
+  color: hsl(219, 12%, 42%);
+  padding: 2rem;
+  border: 0.5px solid hsl(219, 12%, 42%);
+  border-radius: 0.5rem;
+  margin-left: 9rem;
+  max-width: 56rem;
+  cursor: pointer;
+}
+.rizky-message:hover {
+  background-color: hsl(211, 68%, 94%);
+  border: 0.5px solid hsl(211, 68%, 94%);
+}
+
+/* Kimberley */
+.kimberly .notification {
+  background-color: #fff;
+}
+
+.chess-photo img {
+  height: 4.5rem;
+  margin-left: 17rem;
+  margin-top: 2.9rem;
+}
+.kimberly .time {
+  margin-top: -2.9rem;
+}
+
+.kimberly .message-from {
+  margin-top: -2.5rem;
+}
+
+/* Nathan */
+
+.nathan .notification {
+  background-color: #fff;
+}
+
+/* Nathan */
+
+.anna .notification {
+  background-color: #fff;
+}
+
+/* Media Query */
+
+@media (max-width: 520px) {
+  .container {
+    padding: 1rem;
+  }
+  .notification {
+    padding: 1rem 2rem;
+  }
+
+  .chess-photo img {
+    height: 4.5rem;
+    margin-left: 0rem;
+    margin-top: 2.9rem;
+  }
+}
+
+.developed-by {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+  color: hsl(219, 12%, 42%);
+}
+
+.developed-by a {
+  color: hsl(219, 85%, 26%);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.developed-by a:hover {
+  border-bottom: 1.5px solid hsl(219, 85%, 26%);
+}
